@@ -1,0 +1,21 @@
+{
+  "name": "test-libraries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.1.3",
+    "chart.js": "^3.7.0",
+    "imagehover.css": "^2.0.0",
+    "jquery": "^3.6.0",
+    "slick-carousel": "^1.8.1",
+    "wow.js": "^1.2.2"
+  }
+}

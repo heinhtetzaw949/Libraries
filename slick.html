@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick-theme.css">
+    
+
+    <style>
+
+            body{
+
+                background: gray;
+                
+            }
+    </style>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="st">
+                        <div class="">
+                            <img src="images/two.jpg" class="w-100" alt="">
+                        </div> 
+                        <div class="">
+                            <img src="images/three.jpg" class="w-100" alt="">
+                        </div>   
+                        <div class="">
+                            <img src="images/four.jpg" class="w-100" alt="">
+                        </div>   
+                        <div class="">
+                            <img src="images/five.jpg" class="w-100" alt="">
+                        </div>               
+                        <div class="">
+                            <img src="images/six.jpg" class="w-100" alt="">
+                        </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/slick-carousel/slick/slick.min.js"></script>
+
+    <script>
+
+            $(".st").slick({
+                infinite : true,
+                slidesToShow: 2,
+                 slidesToScroll: 2
+            })
+
+    </script>
+</body>
+</html>
